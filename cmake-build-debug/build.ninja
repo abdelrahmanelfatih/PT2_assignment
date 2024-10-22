@@ -55,7 +55,7 @@ build CMakeFiles/PT2Ass.dir/main.cpp.obj: CXX_COMPILER__PT2Ass_unscanned_Debug C
   OBJECT_DIR = CMakeFiles\PT2Ass.dir
   OBJECT_FILE_DIR = CMakeFiles\PT2Ass.dir
 
-build CMakeFiles/PT2Ass.dir/course.cpp.obj: CXX_COMPILER__PT2Ass_unscanned_Debug C$:/Users/nar7g/CLionProjects/PT2Ass/cmake-build-debug/course.cpp || cmake_object_order_depends_target_PT2Ass
+build CMakeFiles/PT2Ass.dir/course.cpp.obj: CXX_COMPILER__PT2Ass_unscanned_Debug C$:/Users/nar7g/CLionProjects/PT2Ass/course.cpp || cmake_object_order_depends_target_PT2Ass
   DEP_FILE = CMakeFiles\PT2Ass.dir\course.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\PT2Ass.dir

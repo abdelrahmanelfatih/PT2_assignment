@@ -20,6 +20,6 @@ public:
     std::string getName() const;
     std::string getCode() const;
     double getScore() const;
-    double calculateGrade();
+    std::string calculateGrade();
 
 };
