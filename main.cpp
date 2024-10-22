@@ -7,6 +7,7 @@ int main() {
     Course course;
     std::string courseName, courseCode;
     double score;
+    int creditHour;
 
     std::cout << "Enter the following data: " << std::endl;
 
@@ -20,9 +21,13 @@ int main() {
     std::cin >> score;
 
     // Cute lil error handling
-    if (!courseCode.empty() && std::isdigit(courseCode.back())) { int creditHour = courseCode.back() - '0'; }
+    if (!courseCode.empty() && std::isdigit(courseCode.back())) { creditHour = courseCode.back() - '0'; }
     else { exit(1); }
 
-    std::cout << " THE RESULT"
+    std::cout <<"\n \n"  << "THE RESULT" << "\n \n"
+        << courseName << std::endl
+        << courseCode << std::endl
+        << creditHour << std::endl
+        << score << std::endl;
     return 0;
 }
