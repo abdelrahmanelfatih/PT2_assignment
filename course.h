@@ -1,31 +1,34 @@
 #ifndef COURSE_H
 #define COURSE_H
-#endif //COURSE_H
 
 #include <string>
 
-
 class Course {
-    //class members are private by default
-    std::string name , code;
+private:
+    std::string name, code;
     double score;
 
 public:
-    //constructor and destructor block
+    // Constructors and destructor
     Course(std::string name, std::string code, double score)
-    : name(name), code(code), score(score) {} //sets the variables to the attributes in the class
-    Course() : name{} , code{} , score{} {} //resets the variables and makes them empty
-    ~Course(){}
+        : name(std::move(name)), code(std::move(code)), score(score) {}
+    Course() : name{}, code{}, score{} {}
+    ~Course() {}
 
-    //methods declaration
-    void setName(std::string name);
-    void setCode(std::string code);
+    // Setters
+    void setName(const std::string& name);
+    void setCode(const std::string& code);
     void setScore(double score);
+
+    // Getters
     std::string getName() const;
     std::string getCode() const;
     double getScore() const;
-    std::string calculateGrade();
-    double calculateGradePoint();
-    double calculatePoint(int creditHour);
 
+    // Grade calculation methods
+    std::string calculateGrade() const;
+    double calculateGradePoint() const;
+    double calculatePoint(int creditHour) const;
 };
+
+#endif //COURSE_H
