@@ -1,0 +1,3 @@
+C:/Users/nar7g/CLionProjects/PT2Ass/cmake-build-debug/CMakeFiles/PT2Ass.dir
+C:/Users/nar7g/CLionProjects/PT2Ass/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/nar7g/CLionProjects/PT2Ass/cmake-build-debug/CMakeFiles/rebuild_cache.dir
