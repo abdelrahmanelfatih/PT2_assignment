@@ -21,5 +21,7 @@ public:
     std::string getCode() const;
     double getScore() const;
     std::string calculateGrade();
+    double calculateGradePoint();
+    double calculatePoint(int creditHour);
 
 };
