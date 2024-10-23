@@ -53,7 +53,7 @@ double Course::calculateGradePoint() {
     std::string grade = calculateGrade();
 
     return pointMap.count(grade) > 0 ? pointMap[grade] : 0.0; // Default point for failing
-} // Closing brace added here
+}
 
 double Course::calculatePoint(int creditHour) {
     return creditHour * calculateGradePoint();
